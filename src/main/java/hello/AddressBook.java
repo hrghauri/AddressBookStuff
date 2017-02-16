@@ -81,9 +81,9 @@ public class AddressBook {
         BuddyInfo buddy= new BuddyInfo();
         BuddyInfo buddy2 = new BuddyInfo();
         buddy.setName("Haris");
-        buddy.setPhone_nummber("613");
+        buddy.setPhoneNumber("613");
         buddy2.setName("Tanzeel");
-        buddy2.setPhone_nummber("613");
+        buddy2.setPhoneNumber("613");
 
         AddressBook buddies = new AddressBook();
 

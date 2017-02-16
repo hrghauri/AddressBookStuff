@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by harisghauri on 2/2/2017.
  */
-@RepositoryRestResource(collectionResourceRel = "buddy", path = "buddy")
+@RepositoryRestResource(collectionResourceRel = "buddies", path = "buddies")
 public interface BuddyInfoRepository extends PagingAndSortingRepository<BuddyInfo, Integer> {
 
     List<BuddyInfo> findByName(@Param("name")String name);

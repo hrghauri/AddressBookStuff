@@ -23,9 +23,11 @@ public class BuddyInfo {
 
     String address;
 
-    String phone_nummber;
+    String phoneNumber;
 
-    protected BuddyInfo(){}
+    protected BuddyInfo(){
+        System.out.println("BuddyInfo ....");
+    }
 
 
     public BuddyInfo(String name){
@@ -48,21 +50,15 @@ public class BuddyInfo {
         this.address = address;
     }
 
-    public String getPhone_nummber() {
-        return phone_nummber;
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
 
 
-    public void setPhone_nummber(String phone_nummber) {
-        this.phone_nummber = phone_nummber;}
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;}
 
     public Integer getId() {
         return id;
     }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-
 }
